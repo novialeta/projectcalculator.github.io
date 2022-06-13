@@ -1,0 +1,68 @@
+body {
+       background-image: url('background matematika.jpg');
+}
+
+h1 {
+       text-align: center;
+       margin: 0 auto;
+       padding-top: 100px;
+       font-size: 70px;
+       color: #fff;
+}
+
+.calculator {
+       text-align: center;
+       margin: 0 auto;
+       padding-top: 50px;
+       width: 400px;
+}
+
+.calculator-screen {
+       width: 100%;
+       height: 70px;
+       background-color: #d5c6c6;
+       color: #fff;
+       text-align: right;
+       border: none;
+       padding: 0 20px;
+       box-sizing: border-box;
+       font-size: 50px;
+}
+
+.calculator-keys {
+       width: 100%;
+
+}
+
+.row {
+       display: flex;
+}
+
+button {
+       height: 80px;
+       background-color: gray;
+       border: 1px solid black;
+       font-size: 32px;
+       color: #fff;
+       width: 100%;
+       outline: none;
+}
+
+.all-clear,
+.zero-btn {
+       width: 50%;
+}
+
+.operator,
+.equal-sign {
+       background-color: rgb(134, 204, 236);
+}
+
+button:hover {
+       background-color: darkgrey;
+}
+
+.operator:hover,
+.equal-sign:hover {
+       background-color: rgba(42, 143, 227, 0.737);
+}
